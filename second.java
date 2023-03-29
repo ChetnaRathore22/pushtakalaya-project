@@ -9,11 +9,15 @@ public class second {
 
 }
 
-class Third extends second{
+class Third {
     void add(){
         int a=15;
         int b=20;
-        int c=0;
-        System.out.println("Sum :"+c);
+        System.out.println("Sum :"+(a+b));
+    }
+    void multiply(){
+        int a=15;
+        int b=20;
+        System.out.println("Sum :"+(a*b));
     }
 }
